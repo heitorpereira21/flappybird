@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Barbearia do Heitor</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logo.png"></header></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="contatos.html" method="get">
+            <p><label for="nome">Nome completo: </label><br> <input required type="text" id="nome" class="input-padrao"></p>
+            
+            <p><label for="email">E-mail: </label><br><input required type="email" id="email" class="input-padrao" placeholder="exemplo@dominio.com"></p>
+
+            <p><label for="tel">Telefone: </label><br><input required type="tel" id="tel" class="input-padrao" placeholder="(xx) xxxxx-xxxx"></p>
+
+            <p><label for="textarea">Mensagem: </label><br><textarea name="textarea" id="textarea" class="input-padrao" cols="70" rows="10"></textarea></p>
+
+            <p><fieldset>
+                <p><legend>Como prefere o nosso contato?</legend></p><br>
+                <p><input type="radio" name="radio" id="radio-email"><label for="radio-email">E-mail</label></p>
+                <p><input type="radio" name="radio" id="radio-telefone"><label for="radio-telefone">Telefone</label></p>
+                <p><input type="radio" name="radio" id="radio-whatsapp"><label for="radio-whatsapp">WhatsApp</label></p>
+            </fieldset></p><br>
+
+            <p><label for="select">Qual o melhor horário para você ser atendido? </label></p>
+            <select name="horario" id="select">
+                <option value="Manhã">Manhã</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noite">Noite</option>
+            </select><br><br>
+
+            <p><input type="checkbox" id="checkbox" class="checkbox"><label for="checkbox">Deseja receber nosso conteúdo por E-mail?</label></p>
+            
+            <p><input type="submit" value="Enviar" id="enviar"></p>
+        </form>
+    </main>
+
+    <footer>
+        <img src="logo-branco.png">
+        <p>&copy; CopyRight Barbearia do Heitor - 2023</p>
+    </footer>
+</body>
+</html>

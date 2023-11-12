@@ -1,0 +1,41 @@
+body{
+    background-color: azure;
+}
+
+.titulo-1{
+    padding-left: 20px;
+}
+
+.principal{
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#banner{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
+
+#frase_de_efeito{
+    color: red;
+}
+
+h2{
+    text-align: center;
+    border: 10px solid black;
+    padding: 10px;
+}
+
+.lista{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
+}
+
+.img_beneficios{
+    width: 50%;
+}

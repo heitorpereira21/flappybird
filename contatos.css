@@ -1,0 +1,77 @@
+header{
+    background-color: lightgray;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 140px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+}
+/*Principal*/
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+form input:hover{
+    border-color: goldenrod;
+}
+
+.input-padrao{
+    padding: 10px 25px;
+    margin: 0 0 20px;
+    width: 50%;
+}
+
+fieldset legend{
+    font-size: 22px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    color: white;
+}
